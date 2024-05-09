@@ -18,6 +18,7 @@ import java.util.stream.Collectors;
  * Copyright (c) University of Sheffield 2023
  */
 public class SpotifyDashboardApp {
+    
     private final AbstractSongCatalog songCatalog;
     private final List<Query> listOfQueries;
 
