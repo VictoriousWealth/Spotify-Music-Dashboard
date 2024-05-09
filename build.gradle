@@ -3,15 +3,15 @@ plugins {
     id 'application'
 }
 
-group = 'uk.ac.sheffield.com1003.assignment.SpotifyDashboard'
+group = 'uk.ac.sheffield.com1003.assignment2023.SpotifyDashboardApp'
 version = '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
 }
 
-sourceCompatibility = JavaVersion.VERSION_1_8
-targetCompatibility = JavaVersion.VERSION_1_8
+sourceCompatibility = JavaVersion.VERSION_17
+targetCompatibility = JavaVersion.VERSION_17
 
 dependencies {
     testImplementation platform('org.junit:junit-bom:5.9.1')
@@ -28,5 +28,5 @@ test {
 }
 
 application {
-    mainClass = 'uk.ac.sheffield.com1003.assignment.SpotifyDashboard'
+    mainClass = 'uk.ac.sheffield.com1003.assignment2023.SpotifyDashboardApp'
 }
