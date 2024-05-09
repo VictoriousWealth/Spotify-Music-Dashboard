@@ -18,12 +18,12 @@ public class SongCatalog extends AbstractSongCatalog {
      * @throws IllegalArgumentException if the file path or format is incorrect.
      * @throws IOException if an I/O error occurs during file reading.
      */
+    
     public SongCatalog(String songFile) throws IllegalArgumentException, IOException {
         // Call to the superclass constructor to handle the actual file reading and object initialization.
         super(songFile);
     }
-
-
+    
     /**
      * Parse the properties from a given line from a song catalog file.
      * Assumes that each value appears in the same order as the columns in the file,
@@ -58,6 +58,7 @@ public class SongCatalog extends AbstractSongCatalog {
 
         return songPropertyMap;
     }
+    
     /**
      * Returns the pured list of song entries after filtering by SongDetail.
      *
@@ -151,6 +152,4 @@ public class SongCatalog extends AbstractSongCatalog {
         // Return a sublist of the first up to five entries from the song entries list
         return songEntriesList.subList(0, endIndex);
     }
-
-
 }
