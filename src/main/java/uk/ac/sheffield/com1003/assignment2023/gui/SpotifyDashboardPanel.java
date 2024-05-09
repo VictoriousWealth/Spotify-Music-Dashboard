@@ -432,7 +432,6 @@ public class SpotifyDashboardPanel extends AbstractSpotifyDashboardPanel {
         return header.append("-".repeat(750)).append("\n");
     }
 
-
     /**
      * Populates all combo boxes (artist, album, and song names) based on the current
      * selection state and the available song entries. This method is designed to prevent
@@ -592,7 +591,6 @@ public class SpotifyDashboardPanel extends AbstractSpotifyDashboardPanel {
             }
         });
     }
-
 
     @Override
     protected void paintComponent(Graphics g) {
