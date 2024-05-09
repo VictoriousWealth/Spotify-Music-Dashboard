@@ -9,6 +9,7 @@ import java.util.*;
  * This class provided basic reading functionalities of the dataset with song entries.
  * */
 public class SongCatalog extends AbstractSongCatalog {
+    
     /**
      * Constructs a new SongCatalog instance by loading song data from the spotify_songs.tsv file.
      * This constructor invokes the superclass's constructor to handle the loading of song entries
