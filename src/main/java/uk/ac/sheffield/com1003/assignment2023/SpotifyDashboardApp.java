@@ -258,5 +258,4 @@ public class SpotifyDashboardApp {
         // Make the application window visible to the user.
         songDashboard.setVisible(true);
     }
-
 }
