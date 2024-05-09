@@ -14,7 +14,6 @@ import java.util.List;
 import java.util.Map;
 
 
-
 /**
  * Represents a custom panel for displaying the custom chart based on some of the song properties.
  * This class extends AbstractCustomChartPanel and manages the rendering of both
@@ -102,7 +101,6 @@ public class CustomChartPanel extends AbstractCustomChartPanel {
         }
     }
 
-
     /**
      * Displays the minimum data plot on the radar chart.
      * This method is responsible for highlighting the minimum values on the chart by placing
@@ -116,7 +114,6 @@ public class CustomChartPanel extends AbstractCustomChartPanel {
         // Draw a filled ellipse at the center of the radar chart to represent the minimum data point
         g2d.fill(new Ellipse2D.Double(dimension.width / 2d - 5, dimension.height / 2d - 5, 10, 10));
     }
-
 
     /**
      * Plots average data points for the radar chart.
@@ -483,7 +480,6 @@ public class CustomChartPanel extends AbstractCustomChartPanel {
             }
         }
     }
-
 
     /**
      * Initializes and draws the sector for the "Loudness" song property on the circular chart.
