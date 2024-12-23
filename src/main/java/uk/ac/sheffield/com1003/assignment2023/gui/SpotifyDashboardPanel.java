@@ -5,6 +5,8 @@ import uk.ac.sheffield.com1003.assignment2023.codeprovided.gui.AbstractSpotifyDa
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.awt.event.ItemEvent;
 import java.util.*;
 import java.util.List;
