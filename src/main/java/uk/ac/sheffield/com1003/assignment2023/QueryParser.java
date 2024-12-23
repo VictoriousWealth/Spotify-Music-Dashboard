@@ -19,6 +19,7 @@ import java.util.*;
  * are then identified and skipped to ensure that only valid queries are processed and returned.
  */
 public class QueryParser extends AbstractQueryParser {
+    
     /**
      * Parses a list of string tokens into a structured list of Query objects.
      * Malformed queries are skipped with an error message printed to the standard error output.
